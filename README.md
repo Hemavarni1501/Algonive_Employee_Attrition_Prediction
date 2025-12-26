@@ -1,24 +1,63 @@
-# 🛡️ ALGONIVE | Enterprise AI Attrition Predictor
-**"Empowering Talent Retention through Gradient Boosting Intelligence"**
+# 🛡️ ALGONIVE | Enterprise AI Attrition Intelligence System
+**"Leveraging Gradient Boosting to Optimize Human Capital Retention & Organizational Stability"**
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B.svg)
-![Machine Learning](https://img.shields.io/badge/ML-Gradient%20Boosting-green.svg)
+[![Live App](https://img.shields.io/badge/Status-Live%20App-success?style=for-the-badge&logo=streamlit&logoColor=white)](https://algoniveemployeeattritionprediction-qwzs2tgk7fiab6vtb4kprs.streamlit.app/)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/ML-Gradient%20Boosting-38bdf8?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 
-## 🌐 Overview
-This system is a high-performance HR Analytics tool designed to identify at-risk employees before they leave. Using a **Gradient Boosting Classifier**, the model analyzes patterns across compensation, work-life balance, and sentiment to provide actionable retention scores.
+---
 
-## 🚀 Key Features
-- **Neural Risk Projection:** Real-time simulation of employee churn probability.
-- **Executive Command Center:** High-level workforce metrics and Pay Equity analysis.
-- **Calibrated AI Engine:** 200-estimator Gradient Boosting architecture for maximum precision.
-- **Glassmorphism UI:** A sleek, dark-mode professional interface for MNC stakeholders.
+## 🌐 Executive Summary
+High employee turnover is a silent profit killer for MNCs, leading to increased recruitment costs and lost institutional knowledge. This project delivers a **Predictive Command Center** that transforms HR from a reactive department into a data-driven strategic asset. 
 
-## 🛠️ Tech Stack
-- **Engine:** Scikit-Learn (Gradient Boosting Machine)
-- **Interface:** Streamlit (Custom CSS & Glassmorphism)
-- **Visuals:** Plotly Interactive Dashboards
-- **Data:** Pandas & NumPy
+Using a **Gradient Boosting Classifier (GBC)**, the system analyzes 20+ employee variables—including compensation, work-life balance, and professional sentiment—to identify at-risk talent with high-precision confidence scores.
+
+## 🚀 Key Modules
+
+### 1. Executive Intelligence Dashboard
+* **Workforce Overview:** Real-time visualization of attrition rates and organizational distribution.
+* **Pay Equity vs. Retention:** Advanced box-plot analytics identifying the correlation between income levels and turnover.
+* **Interactive Insights:** Built with **Plotly**, allowing stakeholders to hover and dive deep into department-specific trends.
+
+### 2. Neural Risk Simulator (Monte Carlo Style)
+* **What-If Analysis:** HR Managers can adjust parameters (e.g., increasing salary or reducing overtime) to see the immediate impact on an employee's churn probability.
+* **Retention Threat Index:** A calibrated radial gauge providing a 0-100% risk score based on the current AI model state.
+
+### 3. Model Integrity & Transparency
+* **Feature Importance Mapping:** A "Glassbox" AI approach that ranks the top drivers of attrition, ensuring HR strategies are based on data, not intuition.
+* **Optimized Performance:** Built using 200 estimators with specific hyperparameter tuning to ensure reliability on imbalanced HR datasets.
+
+## 🛠️ Tech Stack & Architecture
+* **Engine:** Python (Pandas, NumPy)
+* **Machine Learning:** Scikit-Learn Gradient Boosting Machine (GBM)
+* **Interface:** Streamlit with Custom **Glassmorphism** CSS
+* **Visuals:** Plotly Interactive Dashboards
+* **Deployment:** CI/CD via GitHub & Streamlit Cloud
+
+
 
 ## 📊 Business Impact
-By predicting attrition with high F1-scores, organizations can reduce turnover costs by up to 20% through targeted retention strategies.
+* **Proactive Retention:** Identifying high-risk employees allows for early intervention (1-on-1s, role adjustments).
+* **Cost Optimization:** Reducing turnover by even 5% can save a mid-sized firm hundreds of thousands in annual hiring costs.
+* **Data-Driven Culture:** Provides managers with objective evidence to support policy changes regarding work-life balance and pay.
+
+---
+
+## ⚙️ Installation & Usage
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/Hemavarni1501/Algonive_Employee_Attrition_Prediction.git](https://github.com/Hemavarni1501/Algonive_Employee_Attrition_Prediction.git)
+    ```
+2.  **Initialize Environment:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Launch the System:**
+    ```bash
+    streamlit run app.py
+    ```
+
+---
+
+**Developed for Algonive Data Science Internship Program** *Winter 2025 Edition*
